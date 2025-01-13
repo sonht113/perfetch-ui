@@ -12,7 +12,7 @@ echo "New version: $new_version"
 $(pnpm run build)
 
 # Publish the project
-$(pnpm publish --access public)
+$(npm publish --access public)
 
 # Commit the changes
 git add .
